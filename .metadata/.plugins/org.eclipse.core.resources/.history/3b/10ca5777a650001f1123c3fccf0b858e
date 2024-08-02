@@ -1,0 +1,12 @@
+package inheritance;
+
+public class User {
+	
+	private String name;
+	private int age;
+	
+	public void m1() {
+		System.out.println("Inside User-m1() method");
+	}
+
+}

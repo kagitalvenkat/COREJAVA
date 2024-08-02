@@ -1,0 +1,13 @@
+package inheritance;
+
+public class Employee extends User{
+ 
+	public static void main(String[] args) {
+		Employee e = new Employee();
+		e.m1();
+		e.name="venkat";
+		e.age=22;
+		
+		System.out.println(e.name+ " :"+e.age);
+	}
+}

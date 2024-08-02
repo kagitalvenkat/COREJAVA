@@ -1,0 +1,17 @@
+package inheritance;
+
+public class Employee extends User{
+	public Employee() {
+		// TODO Auto-generated constructor stub
+		System.out.println("Employee constructor");
+	}
+ 
+	public static void main(String[] args) {
+		Employee e = new Employee();
+		e.m1();
+		e.name="RUDRA";
+		e.age=22;
+		
+		System.out.println(e.name+ " :"+e.age);
+	}
+}
