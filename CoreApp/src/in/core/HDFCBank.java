@@ -1,17 +1,17 @@
 package in.core;
 
-public class SBIBank implements Bank{
+public class HDFCBank implements Bank{
 
 	@Override
 	public void moneyTransfer() {
 		// TODO Auto-generated method stub
-		System.out.println("SBI BANK-moneyTransfer");
+		System.out.println("HDFC BANK-moneyTransfer");
 	}
 
 	@Override
 	public void checkBalance() {
 		// TODO Auto-generated method stub
-		System.out.println("SBI BANK -checkBalance ");
+		System.out.println("HDFC BANK -checkBalance ");
 		
 	}
 	
